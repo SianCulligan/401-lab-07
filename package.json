@@ -1,0 +1,27 @@
+{
+  "name": "401-lab-07",
+  "version": "1.0.0",
+  "description": "Author: Sian Culligan",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint **/*.js",
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SianCulligan/401-lab-07.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SianCulligan/401-lab-07/issues"
+  },
+  "homepage": "https://github.com/SianCulligan/401-lab-07#readme",
+  "dependencies": {
+    "@code-fellows/supergoose": "^1.0.2",
+    "express": "^4.17.1",
+    "jest": "^25.2.7"
+  }
+}
