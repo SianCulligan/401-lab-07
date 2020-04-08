@@ -4,14 +4,14 @@ Author: Sian Culligan
 
 Links and Resources
 GH PR:
-- https://github.com/SianCulligan/Lab06/pull/2
+- https://github.com/SianCulligan/401-lab-07/pull/1
 
 Resource Links:
 - [Sonia's Lecture](https://www.youtube.com/watch?v=c7Fk4lbaMqM)
 - [Stack Overflow - to kick off json-server](https://stackoverflow.com/questions/33935281/command-not-found-oh-my-zsh)
 
 Swagger Documentation
-- [Swagger Doc Link](https://app.swaggerhub.com/apis-docs/SianCulligan/default-title/0.1)
+- [Swagger Doc Link - Coming Soon]()
 
 Setup/How to initialize & run your application 
 - run ``json-server --watch ./data/db.json`` from the root. 
@@ -25,4 +25,4 @@ Any tests of note?
 Describe any tests that you did not complete, skipped, etc
 - All tests pass
 
-![Tests Passing](./assets/passing.png)
+![Tests Passing]()
