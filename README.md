@@ -17,6 +17,9 @@ Setup/How to initialize & run your application
 - run ``json-server --watch ./data/db.json`` from the root. 
 - enter ``http://localhost:3000/`` into your browser while the server is running
 
+Depoyed to Heroku, here: 
+- https://lab07express.herokuapp.com/
+
 How do you run tests?
 - [Go here](https://server-validation-lab-06.netlify.com/)
 - Enter ``http://localhost:3000/``
