@@ -11,7 +11,8 @@ Resource Links:
 - [Stack Overflow - to kick off json-server](https://stackoverflow.com/questions/33935281/command-not-found-oh-my-zsh)
 
 Swagger Documentation
-- [Swagger Doc Link - Coming Soon]()
+- run ``nodemon ./docs/swagger.js`` from the terminal
+- enter ``http://localhost:3001/`` into your browser while the server is running
 
 Setup/How to initialize & run your application 
 - run ``json-server --watch ./data/db.json`` from the root. 
