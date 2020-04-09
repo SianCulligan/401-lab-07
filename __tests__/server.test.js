@@ -44,18 +44,18 @@ describe('product routes work', () => {
       'display_name': 'Pink bow flats',
       'description': 'Aldo Slip-ons',
     });
-    // console.log('TO STRING', updatedProductData);
-    let response = await mockRequest.put('/products:1').send(updatedProductData);
+    console.log('PUT TO STRING', updatedProductData);
+    let response = await mockRequest.put('/products/1').send(updatedProductData);
     let str = response.status;
-    // console.log('RESPONSE', response.status);
-    expect(str).toBe(201);
+    console.log('PUT RESPONSE', response.status);
+    expect(str).toBe(200);
   });
 
   it('can DELETE (delete, duh) products', async () => {
     let response = await mockRequest.delete('/products:1');
     let str = response.status;
     // console.log('RESPONSE', str);
-    expect(str).toBe(201);
+    expect(str).toBe(200);
   });
 });
 
@@ -81,10 +81,10 @@ describe('Category routes work', () => {
       'display_name': 'Dresses',
       'description': 'long-dresses',
     });
-    console.log('TO STRING', newCategoryData);
+    // console.log('TO STRING', newCategoryData);
     let response = await mockRequest.post('/categories');
     let str = response.status;
-    console.log('RESPONSE', response.body);
+    // console.log('RESPONSE', response.body);
     expect(JSON.stringify(response.body)).toBe(JSON.stringify([
       { id: 1, name: 'shirt', display_name: 'T-shirt', description: 'Short sleeves'},
       { id: 2, name: 'pants', display_name: 'Pants', description: 'Denim'},
