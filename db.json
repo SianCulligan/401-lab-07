@@ -1,0 +1,52 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "shirt",
+      "display_name": "T-shirt",
+      "description": "Short sleeves"
+    },
+    {
+      "id": 2,
+      "name": "pants",
+      "display_name": "Pants",
+      "description": "Denim"
+    },
+    {
+      "id": 3,
+      "name": "flat_shoes",
+      "display_name": "Shoes",
+      "description": "Flat shoes"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "category": "shirt",
+      "name": "Black shirt",
+      "display_name": "Black short sleeve shirt",
+      "description": "Stay Home Club Black Shirt"
+    },
+    {
+      "id": 2,
+      "category": "pants",
+      "name": "Black pants",
+      "display_name": "Distressed black pants",
+      "description": "Topshop black pants"
+    },
+    {
+      "id": 3,
+      "category": "flat_shoes",
+      "name": "Black flats",
+      "display_name": "Black print shoes",
+      "description": "Louis Et Cie black flats"
+    },
+    {
+      "category": "sweatshirt",
+      "name": "Black sweatshirt",
+      "display_name": "Black long sleeve fleece",
+      "description": "Express black lace up fleece",
+      "id": 4
+    }
+  ]
+}
